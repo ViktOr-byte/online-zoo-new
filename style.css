@@ -9,7 +9,7 @@
     box-sizing: border-box;
     }
 button{
-        cursor: pointer;
+    cursor: pointer;
 }
 .but:hover{
     background: #E47209;
