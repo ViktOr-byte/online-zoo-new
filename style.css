@@ -529,6 +529,15 @@ background:#E47209 ;
     color: #333B41;
     margin-bottom: 40px;
 }
+.support-link{
+    text-decoration: underline #FE9013;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333B41;
+}
 .vector{
     height: 168px;
     display: flex;
