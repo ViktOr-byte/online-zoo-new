@@ -9,7 +9,7 @@
     box-sizing: border-box;
     }
 button{
-    cursor: pointer;
+        cursor: pointer;
 }
 .but:hover{
     background: #E47209;
@@ -18,6 +18,9 @@ main {
     display: block;
     font-family: 'Roboto';
     font-style: normal;
+}
+li a:hover{
+    color:#F9804B;
 }
 h3{
     font-family: 'Roboto';
@@ -37,7 +40,8 @@ h3{
 .container{
     max-width: 1160px;
     margin: 0 auto;
-    height:80px; 
+    height:80px;
+  
 }
 header{
     background-color: #000000;
@@ -95,8 +99,6 @@ ul{
     padding-inline-start: 0;
     justify-content: center;
 }
-li a:hover{
-    color:#F9804B;
 a{
     font-family: 'Roboto';
     font-style: normal;
