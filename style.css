@@ -263,7 +263,18 @@ a{
     border-radius: 5px;
     position: relative;
     z-index:2 ;
+    cursor: pointer;
 }
+.card-title{
+    transition: 0.75s;
+}
+.card:hover .card-img img{
+    opacity: 0.7;
+} 
+.card:hover .card-title {
+    transform: translate(0, -200px);
+}
+
 .card-img img{
     border-radius: 5px;
 }
@@ -329,6 +340,7 @@ background:#E47209 ;
     line-height: 120%;
     color: #000000;
 }
+
 .card-title-text{
     display: flex;
     flex-direction: column;
@@ -353,7 +365,6 @@ background:#E47209 ;
     padding-bottom: 180px;
     margin-top: 140px;
 }
-
 .testimonial-flower{
     background: url(./assert/images/leav_foto.png);
     background-size: contain;
