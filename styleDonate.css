@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+    li a:hover{
+    color:#F9804B;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #333B41;
+}
+.wrapp{
+    max-width: 1600px;
+    min-height: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    height:80px;
+  
+}
+header{
+    background-color: #000000;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 14px;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 63px;
+    text-align: center;
+    align-items: center;
+}
+.logo-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 82px;
+    height: 52px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 2px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+}
+.logo img{
+    position: absolute;
+    left: 8px;
+    top: 21px;
+}
+.logo h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2.5px;
+}
+ul{
+    display: flex;
+    gap:58px;
+    align-items: center;
+    padding-inline-start: 0;
+    justify-content: center;
+}
+a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.text-link:hover{
+    color: #F9804B;
+}
+
+.donate{
+    color:#F9804B;
+}
+.watch-online{
+    background: url(./assert/images/panda_bg.png);
+    width: 100%;
+    height: 390px;
+}
+.feed-friends{
+    background:  linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);;
+    height: 1482px;
+}
+.feed-friends-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-bottom: 180px;
+    padding-top: 40px;
+}
+.text-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.info-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.info-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.info-name{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+    margin-bottom: 60px;
+}
+.pick-feed{
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    width: 100%;
+    height: 964px;
+}
+.pick-feed-container{
+    padding: 40px 92px 62px 92px;
+}
+.donation-title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FE9013;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.donation-text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    margin-bottom: 60px;
+}
+.donation-animal{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 29px;
+}
+.animal-count{
+    margin-top: 58px;
+}
+.count{
+    text-align: center;
+    margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.count-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+.cross{
+    margin-top: 26px;
+}
+.animal-img{
+    margin-left:53px ;
+}
+.amount{
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+.donate-progress{
+    margin-top: 17px;
+    position: relative;
+    width: 100%;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+}
+.donate-selects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px 0 26px;
+    padding-top: 8px;
+}
+.donate-circle{
+    background: #FFEE2E;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.donate-circle:hover{
+    cursor: pointer;
+}
+.donate-line{
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    z-index: 0;
+    top: 12px;
+    padding: 0 31px;
+}
+.line{ 
+    background: #72828E;
+    width: 915px;
+    height: 2px;
+}
+.price{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.price-block-1{
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    margin-right: 69px;
+}
+.price-block-2{
+    display: flex;
+    flex-direction: row;
+    gap: 71px;
+    margin-right: 84px;
+}
+.dollar{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+.input-dollar{
+    background: url(./assert/icons/Vectordollar.svg);
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 17px;
+    left: 602px;
+}
+.input-number{
+    width: 268px;
+    height: 54px;
+    padding: 10px 7px 10px 8px;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #929699;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+}
+
