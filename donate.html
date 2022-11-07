@@ -92,10 +92,14 @@
                                <form class="input-form" action="">
                                 <div class="input-dollar"></div>
                                 <input class="input-number" type="number" id="input_amount" placeholder="Another amount">
-                                    <form class="radio">
-                                        <label for="" class="radio-container"></label>
-                                        <label for="" class="radio-container"></label>
-                                    </form>
+                                    <div class="radio">
+                                        <input type="radio" class="input-circle" id="monthly" name="amound-period" value="monthly">
+                                        <label for="monthly" class="radio-container radio-monthly">Monthly</label>
+                                        <input type="radio" checked class="input-circle" id="once" name="amound-period" value="once">
+                                        <label for="once" class="radio-container">Once</label>
+                                    </div>
+                                    <button class="btn-feed">Feed a friend now</button>
+                                    <p class="donation-info">Share with your friends on social networks </p>
                             </form> 
                             </div>
                         </div>
@@ -103,6 +107,74 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-block-1">
+                    <div class="logo-btn">
+                        <a class="logo" href="https://viktor-byte.github.io/online-zoo-new/">
+                            <h1>PetStory<br>online</h1>
+                            <img src="./assert/icons/bambooNew.svg" alt="">
+                        </a>
+                    </div>
+                        <div class="footer-input">
+                            <h4>Subscribe to our news</h4>
+                            <input type="text" placeholder="Enter your email">
+                            <button class="input-btn">Submit</button>
+                        </div>
+                
+                </div>
+                <div class="footer-bock-2">
+                    <button class="testimonial-btn footer-button but"><a href="">donate for volunteers</a></button>
+                </div>
+                <div class="footer-block-3">
+            <div class="footer-media">
+                <ul class="footer-media-list">
+                    <li>
+                        <a href="https://www.facebook.com/" class="footer-media-link">
+                            <div class="media-circle">
+                                <img  src="./assert/images/Fill 211.png" alt="">
+                            </div>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" class="footer-media-link">
+                            <div class="media-circle">
+                                <img  src="./assert/images/Fill 172.png" alt="">
+                            </div>
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/?ysclid=l9xfji39r2444387335" class="footer-media-link">
+                        <div class="media-circle">
+                            <img  src="./assert/images/Fill 166.png" alt="">
+                        </div>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="https://www.youtube.com/" class="footer-media-link">
+                        <div class="media-circle">
+                            <img  src="./assert/images/Fill 213.png" alt="">
+                        </div>
+                        <span>YouTube</span>
+                    </a></li>
+                    
+                </ul>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="about" href="">About</a></li>
+                    <li><a href="">Map</a></li>
+                    <li><a href="">Zoos</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="footer-text">
+                <p>Designed by Alisa Samborskaya</p>
+                <p>©RSSchool & ©Yem Digital 2021</p>
+            </div>
+        </div>
+        </div>
+        </footer>
     </div> 
 </body>
 </html>
