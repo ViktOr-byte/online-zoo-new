@@ -253,6 +253,25 @@ a{
 .donate-circle:hover{
     cursor: pointer;
 }
+.active{
+    position: relative;
+}
+.out-circle{
+    background: url(./assert/icons/roller_icon.svg);
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    cursor: pointer;
+}
+.out-circle{
+    background: url(./assert/icons/roller_icon.svg);
+    height: 40px;
+    width: 40px;
+}
 .donate-line{
     width: 100%;
     height: 2px;
@@ -333,17 +352,21 @@ a{
     margin-right: 40px;
 }
 .input-circle{
+    display: none;
+}
+.radio span{
     display: inline-block;
     width: 16px;
     height: 16px;
-    vertical-align: baseline;
-    cursor: pointer;
-    border: 1px solid #fe9013;
+    border: 1px solid #FE9013;
     border-radius: 50%;
-    background-color: transparent;
+    line-height: 140%;
 }
-.radio input[type="radio"]:checked {
-    background: #fe9013;
+.radio span:hover{
+    background:#4B9200 ;
+}
+.radio input:checked + span {
+    background: #4B9200 ;
 }
 .btn-feed{
     cursor: pointer;
